@@ -27,3 +27,4 @@
 - Push the code on github
 - Host on github pages
 - Add the link to ```../../README.md``` hosted link section
+- https://ajaymorde.github.io/HTML-First-Assignmengt/
