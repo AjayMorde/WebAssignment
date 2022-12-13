@@ -5,8 +5,26 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
+    
+    
   </head>
   <body>
-    Start your code here
+    <div style="height: 600px; width: 1400px; border: 2px solid black;">
+        <div style=" display: flex; justify-content: center; margin-top: 300px;">
+            <input  type="text" name="" id="inp" style="border: 2px solid blue;">
+          </div>
+          <div style="display: flex; justify-content:center;">  <p id="wrote"></p>
+          </div>
+    </div>
+   
+    <script>
+       let c=document.getElementsByTagName('input')[0]
+       let d=c.addEventListener('keyup',print)
+        var inputText=c
+        function print(){
+          let t= document.getElementById('wrote')
+         t.innerText=`${c.value}`
+        }
+    </script>
   </body>
 </html>
